@@ -1,0 +1,11 @@
+spring:
+  data:
+    mongodb:
+      database: chat_service
+      port: 27017
+  application:
+    name: "chat"
+  profiles:
+    active: "service"
+  config:
+    import: "optional:configserver:http://localhost:8888"
