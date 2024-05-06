@@ -1,8 +1,7 @@
 spring:
   data:
     mongodb:
-      database: chat_service
-      port: 27017
+      uri: "mongodb+srv://aravind777:@77SudhaRajan@aravind777.qkdp20j.mongodb.net/?retryWrites=true&w=majority&appName=aravind777"
   application:
     name: "chat"
   profiles:
