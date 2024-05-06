@@ -1,7 +1,7 @@
 spring:
   data:
     mongodb:
-      uri: "mongodb+srv://aravind777:@77SudhaRajan@aravind777.qkdp20j.mongodb.net/?retryWrites=true&w=majority&appName=aravind777"
+      uri: "mongodb+srv://aravind777:%4077SudhaRajan@aravind777.qkdp20j.mongodb.net/chat_service?retryWrites=true&w=majority&appName=aravind777"
   application:
     name: "chat"
   profiles:
