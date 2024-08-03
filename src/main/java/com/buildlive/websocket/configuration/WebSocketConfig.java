@@ -28,7 +28,7 @@ public class WebSocketConfig implements WebSocketMessageBrokerConfigurer {
     @Override
     public void registerStompEndpoints(StompEndpointRegistry registry) {
        registry.addEndpoint("/ws")
-               .setAllowedOrigins("https://buildlivef.vercel.app")
+               .setAllowedOrigins("https://www.buildlive360.online/")
                .withSockJS();
     }
 

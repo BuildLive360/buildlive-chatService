@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 
 import java.util.UUID;
 
-@FeignClient(name = "COMPANY-SERVICE",url = "http://13.127.209.74:8010")
+@FeignClient(name = "COMPANY-SERVICE",url = "http://18.190.72.144:8010")
 public interface CompanyFeign {
 
         @GetMapping("/api/v1/company/{companyId}/get-partyMember-Id/{email}")
